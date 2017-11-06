@@ -1,0 +1,126 @@
+@font-face {
+	font-family: 'corporate';
+	src: url('fonts/corporate.ttf');
+}
+
+*{
+
+}
+body{
+  margin: 0px;
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+
+}
+
+.header_wrapper{
+  width: 100%;
+  height: 62.544vw;
+  background-image: url("img/main.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.header_container{
+  width: 100%;
+}
+
+.titles{
+  margin: 19.238vw 0 0 11.132%;
+  color: #fff;
+  display: inline-block;
+  font-family: 'corporate';
+}
+
+.titles h2{
+  display: inline-block;
+  font-size: 7vw;
+  font-weight: lighter;
+  letter-spacing: 0.555vw;
+  margin: 0px;
+}
+
+.titles p{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 1.9vw;
+  letter-spacing: 0.396vw;
+  margin: 1em -20px;
+}
+
+.subtitle p{
+  font-size: 2.05vw;
+  margin: 10px;
+  letter-spacing: 0.416vw;
+}
+
+.datetime{
+  color: #fff;
+  display: inline-block;
+  font-family: 'corporate';
+  margin: 17vw 0 0 1.66vw;
+}
+
+.datetime p{
+  display: inline-block;
+  letter-spacing: -0.0283vw;
+  font-size: 1.9vw;
+}
+
+.datetime a{
+  font-family: 'Hiragino Sans';
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border: solid 7px #fff;
+  font-size: 3.222vw;
+  letter-spacing: 0.39vw;
+  padding: 0.3vw 1.17vw 0.3vw 2vw;
+  margin-left: 11.5vw;
+}
+
+.content_wrapper{
+  width: 100%;
+  height: 44vw;
+  background-image: url("img/content.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.content_container{
+  width: 100%;
+}
+
+.title{
+  color: #EC6758;
+  padding: 5.76vw 0 0;
+}
+
+.title h2{
+  text-align: center;
+  font-size: 3.515vw;
+  margin: 0;
+}
+
+.title p{
+  margin-top: 3vw;
+  text-align: center;
+  font-size: 1vw;
+  letter-spacing: 0.54vw;
+  line-height: 3em;
+}
+
+.schedule_wrapper{
+  width: 100%;
+  height: 52.83vw;
+  background-image: url("img/schedule.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.prize_wrapper{
+  width: 100%;
+  height: 39.06vw;
+  background-image: url("img/prize.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
