@@ -4,10 +4,10 @@
 }
 
 *{
+  margin: 0px;
 
 }
 body{
-  margin: 0px;
   font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 
 }
@@ -18,10 +18,6 @@ body{
   background-image: url("img/main.png");
   background-repeat: no-repeat;
   background-size: cover ;
-}
-
-.header_container{
-  width: 100%;
 }
 
 .titles{
@@ -57,7 +53,7 @@ body{
   color: #fff;
   display: inline-block;
   font-family: 'corporate';
-  margin: 17vw 0 0 1.66vw;
+  margin: 18vw 0 0 28vw;
 }
 
 .datetime p{
@@ -75,10 +71,10 @@ body{
   font-size: 3.222vw;
   letter-spacing: 0.39vw;
   padding: 0.3vw 1.17vw 0.3vw 2vw;
-  margin-left: 11.5vw;
+  margin-left: 1.5vw;
 }
 
-.content_wrapper{
+.intro_wrapper{
   width: 100%;
   height: 44vw;
   background-image: url("img/content.png");
@@ -86,27 +82,55 @@ body{
   background-size: cover ;
 }
 
-.content_container{
-  width: 100%;
-}
-
-.title{
+.intro_content{
   color: #EC6758;
   padding: 5.76vw 0 0;
 }
 
-.title h2{
+.intro_content h2{
   text-align: center;
   font-size: 3.515vw;
   margin: 0;
 }
 
-.title p{
+.intro_content p{
   margin-top: 3vw;
   text-align: center;
   font-size: 1vw;
   letter-spacing: 0.54vw;
   line-height: 3em;
+}
+
+.red_title h2{
+  color: #EC6758;
+  padding: 2vw 0 0;
+  text-align: center;
+  font-size: 3.515vw;
+}
+
+
+.red_title p{
+  color: #4A4A4A;
+  margin: 1em 0 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.7578vw;
+}
+
+.white_title h2{
+  color: #FFFFFF;
+  padding: 2vw 0 0;
+  text-align: center;
+  font-size: 3.515vw;
+}
+
+
+.white_title p{
+  color: #4A4A4A;
+  margin: 1em 0 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.7578vw;
 }
 
 .schedule_wrapper{
@@ -121,6 +145,27 @@ body{
   width: 100%;
   height: 39.06vw;
   background-image: url("img/prize.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.date_wrapper{
+  width: 100%;
+  background-color: #EC6758;
+}
+
+.organizer_wrapper{
+  width: 100%;
+  height: 39.06vw;
+  background-image: url("img/organizer.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.footer_wrapper{
+  width: 100%;
+  height: 52.734vw;
+  background-image: url("img/footer.png");
   background-repeat: no-repeat;
   background-size: cover ;
 }
