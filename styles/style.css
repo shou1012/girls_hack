@@ -204,7 +204,7 @@ body{
 
 .QA_content{
   color:  #4A4A4A;
-  margin: 1em 25vw;
+  margin: 5em 25vw;
   font-size: 1vw;
 }
 
@@ -222,6 +222,25 @@ body{
   background-image: url("img/organizer.png");
   background-repeat: no-repeat;
   background-size: cover ;
+}
+
+.organizer_content{
+  margin: 5em 0vw 1em 19vw;
+}
+
+.organizer_content p{
+  color: #FFF;
+  font-size: 1.758vw;
+  margin-left: 4vw;
+}
+
+.chahan{
+  display: inline-block;
+}
+
+.uechan{
+  display: inline-block;
+  margin-left: 25vw;
 }
 
 .footer_wrapper{
