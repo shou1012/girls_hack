@@ -355,15 +355,15 @@ body{
 }
 
 .enter_bottom a{
-  font-family: 'Yu Gothic';
+	font-family: 'corporate';
   font-weight: bold;
   display: inline-block;
   color: #fff;
   text-decoration: none;
   border: solid 7px #fff;
   font-size: 3.222vw;
-  letter-spacing: 0.39vw;
-  padding: 0.3vw 1.17vw 0.3vw 2vw;
+  letter-spacing: 1vw;
+  padding: 0.5vw 1.17vw 0.5vw 2vw;
   margin: auto;
   transition: 0.3s linear;
 }
